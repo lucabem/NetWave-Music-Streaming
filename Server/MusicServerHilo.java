@@ -1,4 +1,4 @@
-package Servidor;
+package Server;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -42,7 +42,7 @@ public class MusicServerHilo implements Runnable {
 	}
 
 	/**
-	 * Manda la lista de canciones al cliente y se queda esperando a que éste le mande la cancion seleccionada
+	 * Manda la lista de canciones al cliente y se queda esperando a que Ã©ste le mande la cancion seleccionada
 	 * Una vez le envia la cancion, abre el fichero y se lo manda por bloques.
 	 * 
 	 * Una vez mandado el fichero, se queda esperando a la peticion de otra cancion.
