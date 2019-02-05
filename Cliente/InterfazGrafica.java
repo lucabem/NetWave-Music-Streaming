@@ -52,7 +52,6 @@ public class InterfazGrafica extends JFrame {
 		setTitle("Reproductor de musica");
 		cancionVieja = "";
 		cliente = new MusicClient("localhost", 7788);
-//		cliente = new MusicClient("192.168.1.39", 7788);
 
 		cliente.establecerConexion();
 		setResizable(false);
