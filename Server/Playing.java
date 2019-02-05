@@ -1,4 +1,4 @@
-package Servidor;
+package Server;
 
 import javax.sound.sampled.Clip;
 
