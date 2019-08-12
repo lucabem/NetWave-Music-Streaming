@@ -1,7 +1,5 @@
 # NetWave: Music Streaming
-
 <p align="center">
-  <br><br>
   <img src="images/logo_netwave.png">
 </p>
 
